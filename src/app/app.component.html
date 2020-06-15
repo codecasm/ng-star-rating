@@ -1,0 +1,27 @@
+<div class="star-box">
+  <h1>Using Form Control</h1>
+  <hr />
+  <div class="stars">
+    <form [formGroup]="form">
+      <ngx-star-rating
+        formControlName="rating1"
+        [id]="'rating'"
+      ></ngx-star-rating>
+      <p>Rating: {{ form.value.rating1 }}</p>
+    </form>
+  </div>
+</div>
+
+<div class="star-box">
+  <h1>Using ngModel</h1>
+  <hr />
+  <div class="stars">
+    <div>
+      <ngx-star-rating
+        [(ngModel)]="defaultStar"
+        [id]="'defaultStar'"
+      ></ngx-star-rating>
+    </div>
+    <p>Rating: {{ defaultStar }}</p>
+  </div>
+</div>

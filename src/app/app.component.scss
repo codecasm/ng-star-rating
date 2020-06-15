@@ -1,0 +1,33 @@
+.star-box {
+  width: 100%;
+  box-shadow: 2px 2px 2px 2px orange;
+  margin: 30px auto;
+}
+
+.stars {
+  margin: 20px auto;
+  width: 320px;
+  p {
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+hr {
+  width: 160px;
+  margin: 5px auto;
+  border: 1px solid orange;
+}
+
+ngx-star-rating {
+  widows: 320px;
+  display: block;
+}
